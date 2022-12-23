@@ -51,7 +51,7 @@ export default {
   },
   setup() {
     const sayHello = () => {
-      alert('안녕하세요 :)');
+      console.log('안녕하세요 :)');
     };
     const slotArgs = ref('header');
     const message = ref('안녕하세요:)');
